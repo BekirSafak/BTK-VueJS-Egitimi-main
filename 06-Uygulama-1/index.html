@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.JS</title>
+
+    <!-- Vue.Js CDN -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <!-- CSS -->
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .list {
+            list-style-type: none;
+            background: #484add;
+            color: #fff;
+            font-size: 20px;
+            margin: 20px;
+            padding: 10px 20px;
+            border-radius: 15px;
+            align-items: center;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .list.selected {
+            background: #00771a;
+        }
+
+        .button {
+            border-radius: 15px;
+            background-color: #0a6540;
+            color: #a1b2c3;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app"></div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
